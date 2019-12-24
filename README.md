@@ -7,7 +7,7 @@ So the project will openable with an older version of Adobe Premiere Pro.
 
 ## tested
 * tested on Windows 10 with Python Version 3.7.4
-* tested from Adobe Premiere Pro CC 2019 project downgrade to Adobe Premiere Pro CC 2017 project.
+* tested from Adobe Premiere Pro CC 2019 project downgraded to Adobe Premiere Pro CC 2017 project.
 
 ## how-to-use
 ```sh
