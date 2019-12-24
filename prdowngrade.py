@@ -23,7 +23,6 @@ def extractProj():
             extproj.write(proj_r)
 
     return path_in.replace('.prproj','')
-extractProj()
 
 # edit prproj
 def editProj():
@@ -34,7 +33,6 @@ def editProj():
     tree.write(extractProj())
 
     return path_in.replace('.prproj','')
-editProj()
 
 # main
 def main():
