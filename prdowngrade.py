@@ -15,13 +15,12 @@ o┴  ┴└─┴  ┴└─└─┘└┘
 
 path_in = input("Enter file full path: ")
 
-# extract .prproj
+# extract prproj
 def extractProj():
     with gzip.GzipFile(path_in, 'rb') as prproj:
         proj_r = prproj.read()
         with open(path_in.replace('.prproj',''), 'wb') as extproj:
             extproj.write(proj_r)
-
     return path_in.replace('.prproj','')
 
 # edit prproj
@@ -31,7 +30,6 @@ def editProj():
     for project in root.findall('Project'):
         project.set('Version', '1')
     tree.write(extractProj())
-
     return path_in.replace('.prproj','')
 
 # main
