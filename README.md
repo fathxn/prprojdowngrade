@@ -1,6 +1,5 @@
 # prprojdowngrade
-This tool for downgrading Adobe Premiere Pro CC project from new version to older version.
-So the project will openable with an older version of Adobe Premiere Pro.
+"prprojdowngrade" - is a tool for downgrading a new version of Adobe Premiere Pro CC project to an older version of Adobe Premiere Pro CC project, so the project will be openable with an older version of Adobe Premiere Pro CC.
 <p align="center">
 <img src="https://raw.githubusercontent.com/fathan0x1/prprojdowngrade/master/screenshot.png" width=450>
 </p>
